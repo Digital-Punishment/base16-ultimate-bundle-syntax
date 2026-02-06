@@ -1,6 +1,8 @@
 {
   "config": {
     "scheme": {
+      "order": 1,
+      "title": "Color Scheme",
       "type": "string",
       "default": "Default Dark",
       "enum": [
@@ -311,6 +313,9 @@
       ]
     },
     "invertColors": {
+      "order": 2,
+      "title": "Invert Colors",
+      "description": "Invert text and background colors to create *Light* theme from *Dark* scheme and vice versa. Syntax highlighting colors are not affected.",
       "type": "boolean",
       "default": false
     }
