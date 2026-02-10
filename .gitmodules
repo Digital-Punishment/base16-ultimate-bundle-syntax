@@ -1,5 +1,5 @@
 [submodule "schemes"]
-	path = schemes
+	path = tools/schemes
 	url = git@github.com:tinted-theming/schemes.git
 [submodule "tools/spectrum"]
 	path = tools/spectrum
