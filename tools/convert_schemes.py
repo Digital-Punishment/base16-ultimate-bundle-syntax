@@ -8,7 +8,7 @@ import yaml
 import json
 import re
 
-source_path = "../schemes/base16"
+source_path = "../tools/schemes/base16"
 schemes_path = "../styles/schemes"
 settings_path = "../lib/base16bundle_settings.json"
 package_path = "../package.json"
