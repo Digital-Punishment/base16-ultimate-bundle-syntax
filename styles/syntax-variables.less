@@ -19,7 +19,7 @@
 // Gutter colors
 @syntax-gutter-text-color:                  @light-gray;                //@base16-color-base04
 @syntax-gutter-text-color-selected:         @almost-white;              //@base16-color-base06
-@syntax-gutter-background-color:            @very-dark-gray;            //@base16-color-base01
+@syntax-gutter-background-color:            if(@base16-contrastGutter, @very-dark-gray, @syntax-background-color);            //@base16-color-base01
 @syntax-gutter-background-color-selected:   @syntax-selection-color;
 
 // For git diff info. i.e. in the gutter

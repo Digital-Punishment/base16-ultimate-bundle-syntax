@@ -312,10 +312,17 @@
         "Zenburn"
       ]
     },
-    "invertColors": {
+    "contrastGutter": {
       "order": 2,
+      "title": "Contrast Gutter",
+      "description": "Change Gutter background color",
+      "type": "boolean",
+      "default": true
+    },
+    "invertColors": {
+      "order": 3,
       "title": "Invert Colors",
-      "description": "Invert text and background colors to create *Light* theme from *Dark* scheme and vice versa. Syntax highlighting colors are not affected.",
+      "description": "Invert text and background colors to create *Light* theme from *Dark* scheme and vice versa. Syntax highlighting colors are not affected",
       "type": "boolean",
       "default": false
     }

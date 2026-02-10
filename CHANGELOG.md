@@ -2,6 +2,7 @@
 
 #### Enhancements
 - Replace Dark/Light styles with Invert Colors toggle
+- Add ability to change gutter background color
 - Reworked LESS styles
 
 #### New Themes
