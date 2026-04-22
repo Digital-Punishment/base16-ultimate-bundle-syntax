@@ -2,7 +2,7 @@
 
 ![Base16 Banner](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/banner.png?raw=true)
 
-A Base16 syntax theme bundle for Pulsar with 305 [Base16](https://github.com/tinted-theming/home) color schemes inside.
+A Base16 syntax theme bundle for Pulsar with 310 [Base16](https://github.com/tinted-theming/home) color schemes inside.
 
 <details>
 
@@ -281,7 +281,7 @@ A Base16 syntax theme bundle for Pulsar with 305 [Base16](https://github.com/tin
 > ###### Dirtysea (Author: Kahlil (Kal) Hodgson):
 >![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/dirtysea.png?raw=true)
 
-> ###### Dracula (Author: Jamy Golden (http://github.com/JamyGolden), based on Dracula Theme (http://github.com/dracula)):
+> ###### Dracula (Author: clach04 (https://github.com/clach04)):
 >![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/dracula.png?raw=true)
 
 > ###### Edge Dark (Author: cjayross (https://github.com/cjayross), Tinted Theming (https://github.com/tinted-theming)):
@@ -340,6 +340,15 @@ A Base16 syntax theme bundle for Pulsar with 305 [Base16](https://github.com/tin
 
 > ###### Everforest Dark Soft (Author: Sainnhe Park (https://github.com/sainnhe)):
 >![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/everforest-dark-soft.png?raw=true)
+
+> ###### Everforest Light (Hard) (Author: Márcio Sobel (https://github.com/marciosobel)):
+>![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/everforest-light-hard.png?raw=true)
+
+> ###### Everforest Light (Medium) (Author: Márcio Sobel (https://github.com/marciosobel)):
+>![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/everforest-light-medium.png?raw=true)
+
+> ###### Everforest Light (Soft) (Author: Márcio Sobel (https://github.com/marciosobel)):
+>![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/everforest-light-soft.png?raw=true)
 
 > ###### Everforest (Author: Sainnhe Park (https://github.com/sainnhe)):
 >![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/everforest.png?raw=true)
@@ -778,6 +787,12 @@ A Base16 syntax theme bundle for Pulsar with 305 [Base16](https://github.com/tin
 
 > ###### Summerfruit Light (Author: Christopher Corley (http://christop.club/)):
 >![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/summerfruit-light.png?raw=true)
+
+> ###### Swamp Dark (Author: Masroof Maindak (https://github.com/masroof-maindak)):
+>![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/swamp-dark.png?raw=true)
+
+> ###### Swamp Light (Author: Masroof Maindak (https://github.com/masroof-maindak)):
+>![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/swamp-light.png?raw=true)
 
 > ###### Synth Midnight Terminal Dark (Author: Michaël Ball (http://github.com/michael-ball/)):
 >![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/synth-midnight-terminal-dark.png?raw=true)
