@@ -2,7 +2,7 @@
 
 ![Base16 Banner](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/banner.png?raw=true)
 
-A Base16 syntax theme bundle for Pulsar with 310 [Base16](https://github.com/tinted-theming/home) color schemes inside.
+A Base16 syntax theme bundle for Pulsar with 311 [Base16](https://github.com/tinted-theming/home) color schemes inside.
 
 <details>
 
@@ -143,8 +143,11 @@ A Base16 syntax theme bundle for Pulsar with 310 [Base16](https://github.com/tin
 > ###### Blueish (Author: Ben Mayoras):
 >![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/blueish.png?raw=true)
 
-> ###### Booshnickle Dark (Author: Honey D (@honeydbeatz)):
->![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/booshnickle-dark.png?raw=true)
+> ###### Boo Shnickle (Author: boo-shnickle (@boo_shnickle)):
+>![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/boo-shnickle.png?raw=true)
+
+> ###### Boo Shnickle Light (Author: boo-shnickle (@boo_shnickle)):
+>![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/boo-shnickle-light.png?raw=true)
 
 > ###### Brewer (Author: Timothée Poisot (http://github.com/tpoisot)):
 >![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/brewer.png?raw=true)
