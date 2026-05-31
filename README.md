@@ -2,7 +2,7 @@
 
 ![Base16 Banner](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/banner.png?raw=true)
 
-A Base16 syntax theme bundle for Pulsar with 311 [Base16](https://github.com/tinted-theming/home) color schemes inside.
+A Base16 syntax theme bundle for Pulsar with 313 [Base16](https://github.com/tinted-theming/home) color schemes inside.
 
 <details>
 
@@ -517,6 +517,12 @@ A Base16 syntax theme bundle for Pulsar with 311 [Base16](https://github.com/tin
 
 > ###### Kimber (Author: Mishka Nguyen (https://github.com/akhsiM)):
 >![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/kimber.png?raw=true)
+
+> ###### Kissa Latte (Author: rwendell (https://github.com/rwendell/kissa)):
+>![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/kissa-latte.png?raw=true)
+
+> ###### Kissa Macchiato (Author: rwendell (https://github.com/rwendell/kissa)):
+>![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/kissa-macchiato.png?raw=true)
 
 > ###### Lime (Author: limelier):
 >![name](https://github.com/Digital-Punishment/base16-ultimate-bundle-syntax/blob/master/styles/schemes/lime.png?raw=true)
