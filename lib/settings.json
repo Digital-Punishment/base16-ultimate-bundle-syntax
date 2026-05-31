@@ -328,7 +328,7 @@
     },
     "invertColors": {
       "order": 3,
-      "title": "Invert Colors",
+      "title": "Inverted Colors",
       "description": "Invert text and background colors to create *Light* theme from *Dark* scheme and vice versa. Syntax highlighting colors are not affected",
       "type": "boolean",
       "default": false

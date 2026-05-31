@@ -4,7 +4,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter
 import json
 
 
-settings_path = "../lib/base16bundle_settings.json"
+settings_path = "../lib/settings.json"
 package_path = "../package.json"
 
 banner_size = (820, 205)

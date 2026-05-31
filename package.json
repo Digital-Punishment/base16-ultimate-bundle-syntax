@@ -1,7 +1,7 @@
 {
   "name": "base16-ultimate-bundle-syntax-dev",
   "theme": "syntax",
-  "main": "./lib/base16bundle",
+  "main": "./lib/bundle",
   "version": "2.0.1",
   "description": "A Base16 syntax theme bundle for Pulsar with support for all Base16 color schemes.",
   "keywords": [
@@ -241,6 +241,6 @@
     "atom": ">=1.13.0 <2.0.0"
   },
   "dependencies": {
-    "atom-space-pen-views": "^2.0.0"
+    "atom-select-list": "^0.8.1"
   }
 }

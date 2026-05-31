@@ -10,7 +10,7 @@ import re
 
 source_path = "../tools/schemes/base16"
 schemes_path = "../styles/schemes"
-settings_path = "../lib/base16bundle_settings.json"
+settings_path = "../lib/settings.json"
 package_path = "../package.json"
 readme_path = "../README.md"
 
@@ -141,10 +141,12 @@ if __name__ == "__main__":
     schemes = sorted(Path(source_path).glob("*.y*ml"))
 
     name_list = [convert_scheme(scheme) for scheme in schemes]
-    print(f"{len(name_list)} schemes in package")
+    print(f"\n{len(name_list)} schemes in bundle")
 
     with Path(settings_path).open(mode = "r") as settings_file:
         settings_content = json.loads(settings_file.read())
+    new_names = len(name_list) - len(settings_content["config"]["scheme"]["enum"])
+    print(f"{new_names} new schemes")
     settings_content["config"]["scheme"]["enum"] = sorted(name_list)
     with Path(settings_path).open(mode = "w") as settings_file:
         json.dump(settings_content, settings_file, indent = 2)
