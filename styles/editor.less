@@ -53,7 +53,10 @@ atom-text-editor {
   }
 
   .bracket-matcher .region {
-    border-color: @syntax-result-marker-color;
+    border: none;
+    border-radius: 0.13em;
+    outline: 0.13em dashed @syntax-cursor-color;
+    outline-offset: 0.025em;
   }
 }
 

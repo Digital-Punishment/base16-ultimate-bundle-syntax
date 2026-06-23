@@ -1,0 +1,7 @@
+.invert-lightness(@color) {
+  @result: hsl(hue(@color), saturation(@color), (100%-lightness(@color)));
+}
+
+.invert-with-contrast(@color, @background) {
+  @result: contrast(@background, @color, .invert-lightness(@color)[@result]);
+}

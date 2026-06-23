@@ -1,5 +1,5 @@
 {
-  "name": "base16-ultimate-bundle-syntax-dev",
+  "name": "base16-ultimate-bundle-syntax-tools",
   "theme": "syntax",
   "main": "./lib/bundle",
   "version": "2.0.1",

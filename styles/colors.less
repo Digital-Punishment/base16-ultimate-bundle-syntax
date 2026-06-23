@@ -1,21 +1,89 @@
-@import 'base16';
+@import 'schemes/@{base16-scheme}';
 
 // Grayscale
-@black:           if(@base16-invertColors, @base16-color-base07, @base16-color-base00); //Default Background
-@very-dark-gray:  if(@base16-invertColors, @base16-color-base06, @base16-color-base01); //Lighter Background (Used for status bars)
-@dark-gray:       if(@base16-invertColors, @base16-color-base05, @base16-color-base02); //Selection Background
-@gray:            if(@base16-invertColors, @base16-color-base04, @base16-color-base03); //Comments, Invisibles, Line Highlighting
-@light-gray:      if(@base16-invertColors, @base16-color-base03, @base16-color-base04); //Dark Foreground (Used for status bars)
-@very-light-gray: if(@base16-invertColors, @base16-color-base02, @base16-color-base05); //Default Foreground, Caret, Delimiters, Operators
-@almost-white:    if(@base16-invertColors, @base16-color-base01, @base16-color-base06); //Light Foreground
-@white:           if(@base16-invertColors, @base16-color-base00, @base16-color-base07); //The Lightest Foreground
+// Black (Background) - Default Background
+@black: if(@base16-invertColors, @base16-color-base07, @base16-color-base00);
+// (Darkest Gray) - Lighter Background (Used for status bars)
+@very-dark-gray: if(
+  @base16-invertColors,
+  @base16-color-base06,
+  @base16-color-base01
+);
+// (Dark Gray) - Selection Background
+@dark-gray: if(
+  @base16-invertColors,
+  @base16-color-base05,
+  @base16-color-base02
+);
+// Bright Black (Gray) - Comments, Invisibles, Line Highlighting
+@gray: if(@base16-invertColors, @base16-color-base04, @base16-color-base03);
+// (Light Gray) - Dark Foreground (Used for status bars)
+@light-gray: if(
+  @base16-invertColors,
+  @base16-color-base03,
+  @base16-color-base04
+);
+// White - Default Foreground, Caret, Delimiters, Operators
+@very-light-gray: if(
+  @base16-invertColors,
+  @base16-color-base02,
+  @base16-color-base05
+);
+// (Lighter White) - Light Foreground
+@almost-white: if(
+  @base16-invertColors,
+  @base16-color-base01,
+  @base16-color-base06
+);
+// Bright White - The Lightest Foreground
+@white: if(@base16-invertColors, @base16-color-base00, @base16-color-base07);
 
 // Colors
-@red:             @base16-color-base08; //Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
-@orange:          @base16-color-base09; //Integers, Boolean, Constants, XML Attributes, Markup Link Url
-@yellow:          @base16-color-base0A; //Classes, Markup Bold, Search Text Background
-@green:           @base16-color-base0B; //Strings, Inherited Class, Markup Code, Diff Inserted
-@cyan:            @base16-color-base0C; //Support, Regular Expressions, Escape Characters, Markup Quotes
-@blue:            @base16-color-base0D; //Functions, Methods, Attribute IDs, Headings
-@purple:          @base16-color-base0E; //Keywords, Storage, Selector, Markup Italic, Diff Changed
-@brown:           @base16-color-base0F; //Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?>
+// Red and Bright Red - Variables, XML Tags, Markup Link Text, Markup Lists, Diff Deleted
+@red: if(
+  @base16-invertColors,
+  .invert-with-contrast(@base16-color-base08, @black)[@result],
+  @base16-color-base08
+);
+// (Orange) - Integers, Boolean, Constants, XML Attributes, Markup Link Url
+@orange: if(
+  @base16-invertColors,
+  .invert-with-contrast(@base16-color-base09, @black)[@result],
+  @base16-color-base09
+);
+// Yellow and Bright Yellow - Classes, Markup Bold, Search Text Background
+@yellow: if(
+  @base16-invertColors,
+  .invert-with-contrast(@base16-color-base0A, @black)[@result],
+  @base16-color-base0A
+);
+// Green and Bright Green - Strings, Inherited Class, Markup Code, Diff Inserted
+@green: if(
+  @base16-invertColors,
+  .invert-with-contrast(@base16-color-base0B, @black)[@result],
+  @base16-color-base0B
+);
+// Cyan and Bright Cyan - Support, Regular Expressions, Escape Characters, Markup Quotes
+@cyan: if(
+  @base16-invertColors,
+  .invert-with-contrast(@base16-color-base0C, @black)[@result],
+  @base16-color-base0C
+);
+// Blue and Bright Blue - Functions, Methods, Attribute IDs, Headings
+@blue: if(
+  @base16-invertColors,
+  .invert-with-contrast(@base16-color-base0D, @black)[@result],
+  @base16-color-base0D
+);
+// Magenta and Bright Magenta - Keywords, Storage, Selector, Markup Italic, Diff Changed
+@purple: if(
+  @base16-invertColors,
+  .invert-with-contrast(@base16-color-base0E, @black)[@result],
+  @base16-color-base0E
+);
+// (Dark Red or Brown) - Deprecated, Opening/Closing Embedded Language Tags, e.g. <?php ?>
+@brown: if(
+  @base16-invertColors,
+  .invert-with-contrast(@base16-color-base0F, @black)[@result],
+  @base16-color-base0F
+);

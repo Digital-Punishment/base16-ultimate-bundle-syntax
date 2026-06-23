@@ -1,3 +1,0 @@
-{
-  "lessImports": "@import \"schemes/@{base16-scheme}\";\n"
-}
